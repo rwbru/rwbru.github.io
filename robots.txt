@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: rwbru.github.com/sitemap.xml
