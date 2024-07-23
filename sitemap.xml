@@ -4,7 +4,7 @@
   
     
       <url>
-            <loc>https://www.rwbru.github.com/about/</loc>
+            <loc>https://www.rwbru.github.io/about/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -16,7 +16,7 @@
   
     
       <url>
-            <loc>https://www.rwbru.github.com/posts/</loc>
+            <loc>https://www.rwbru.github.io/posts/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -24,7 +24,7 @@
   
     
       <url>
-            <loc>https://www.rwbru.github.com/</loc>
+            <loc>https://www.rwbru.github.io/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
