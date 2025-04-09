@@ -5,14 +5,17 @@
     <link>https://www.rwbru.github.io/</link>
     <description>Recent content on Robert W. Bruckmann</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://www.rwbru.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <copyright>© 2025 Robert W. Bruckmann</copyright>
+    <atom:link href="https://www.rwbru.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>About me</title>
       <link>https://www.rwbru.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.rwbru.github.io/about/</guid>
-      <description>Health Psychology Group now | 01/2024 University of Bamberg Research associate position investigating real-world dimensions of human heat behavior.</description>
+      <description></description>
       
     </item>
     

@@ -4,8 +4,10 @@
     <title>Series on Robert W. Bruckmann</title>
     <link>https://www.rwbru.github.io/series/</link>
     <description>Recent content in Series on Robert W. Bruckmann</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <copyright>© 2025 Robert W. Bruckmann</copyright>
     <atom:link href="https://www.rwbru.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    
   </channel>
 </rss>
