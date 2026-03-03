@@ -188,17 +188,6 @@
 
             
             
-  <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-    
-    <p class="text-base font-medium" title="Le blog">
-        Blog
-    </p>
-</a>
-
-
-
-            
-            
   <a href="https://orcid.org/0000-0002-0971-6983"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <span >
@@ -360,21 +349,6 @@
 
                     
   <li class="mt-1">
-    <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-        
-        <p class="text-bg font-bg" title="Le blog">
-            Blog
-        </p>
-    </a>
-</li>
-
-
-
-
-                    
-
-                    
-  <li class="mt-1">
     <a href="https://orcid.org/0000-0002-0971-6983"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <div >
@@ -469,27 +443,18 @@
                     </h1>
                     
                     <h2 class="mt-0 mb-0 text-lg font-normal text-black-300 dark:text-white-300 px-2 sm:px-0">
-                        My work employs (mostly EMA/ESM-related) methods and techniques from health psychology, computational social sciences, spatial analysis, and digital epidemiology to better understand how humans navigate planetary health hazards.
+                        My work draws on (mostly EMA/ESM-related) methods from health psychology, computational social sciences, spatial analysis, and digital epidemiology to better understand how humans navigate planetary health hazards.
                     </h2>
                     
                     
                     <div class="flex justify-center mt-4 gap-4">
-                        <div class="mr-4">
-                            <button onclick="window.location.href='about';" class="px-4 py-2 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out bg-green-600 border border-white rounded-md active:bg-green-600 hover:bg-green-700 focus:outline-none focus:border-green-700 focus:shadow-outline-green">
-                                <i class="fa-solid fa-id-badge"></i> <br>About
-                            </button>
-                        </div>
-                        <div class="mr-4">
-                            <button onclick="window.location.href='https://tinyurl.com/contact-rwbru';" class="px-4 py-2 text-sm font-medium leading-5 text-blue transition duration-150 ease-in-out bg-blue-600 border border-white rounded-md active:bg-blue-600 hover:bg-blue-700 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue">
-                                <i class="fa-solid fa-envelope"></i> <br>Contact
-                            </button>
-                        </div>
-                        <div class="mr-4">
-                            <button onclick="window.location.href='posts';" class="px-4 py-2 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out bg-green-600 border border-white rounded-md active:bg-green-600 hover:bg-green-700 focus:outline-none focus:border-green-700 focus:shadow-outline-green">
-                                <i class="fa-solid fa-flask-vial"></i> <br>Blog
-                            </button>
-                        </div>
-                    </div>
+                        <button onclick="window.location.href='about';" class="w-32 px-4 py-2 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out bg-green-600 border border-white rounded-md hover:bg-green-700 focus:outline-none">
+                          <i class="fa-solid fa-id-badge"></i><br>About me
+                        </button>
+                        <button id="contact-btn" class="w-32 px-4 py-2 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out bg-blue-600 border border-white rounded-md hover:bg-blue-700 focus:outline-none">
+                            <i class="fa-solid fa-lock"></i><br>Secure contact<br>(PGP)
+                          </button>
+                      </div>
                     
                     <div class="mt-1 mb-10 text-2xl">
                         
@@ -508,6 +473,22 @@
     <h1 class="mb-2 text-4xl font-extrabold dark:text-white-500 text-black-500">
         Work
     </h1>
+</div>
+
+<br>
+<div>
+    <span class="inline-block bg-blue-500 text-white text-xs font-semibold px-2 py-1 rounded-full">
+    journal article
+    </span>
+    <b>Bruckmann, R. W.</b>, Sprengholz, P. (2026). <a href="https://doi.org/10.1038/s44221-025-00540-6" class="underline">Understanding and addressing contamination aversion in the use of drinking fountains</a>. Nature Water.
+</div>
+
+<br>
+<div>
+    <span class="inline-block bg-blue-500 text-white text-xs font-semibold px-2 py-1 rounded-full">
+    journal article
+    </span>
+    Sprengholz, P., <b>Bruckmann, R. W.</b> (2025). <a href="https://doi.org/10.1016/j.pmedr.2025.103309" class="underline">Reducing heat risks for the elderly by rescheduling healthcare appointments in Germany</a>. Preventive Medicine Reports.
 </div>
 
 <br>
@@ -533,7 +514,6 @@
     </span>
     Sprengholz, P., <b>Bruckmann, R. W.</b>, Wolstein, J. (2025). <a href="https://doi.org/10.1002/wea.7679" class="underline">Effects of naming heatwaves on risk perception and protective behaviour</a>. Weather.
 </div>
-
 
 <br>
 <div>
@@ -598,6 +578,15 @@
 
 </section>
 
+<script>
+    document.getElementById('contact-btn').addEventListener('click', function() {
+      var a = atob('cndicnVAcHJvdG9uLm1l');
+      var k = atob('aHR0cHM6Ly9rZXlzLm9wZW5wZ3Aub3JnL3NlYXJjaC8/cT1yd2JydSU0MHByb3Rvbi5tZQ==');
+      window.location.href = 'mailto:' + a
+        + '?subject='
+        + '&body=' + encodeURIComponent('Encrypt using my PGP key: ' + k);
+    });
+    </script>
   
 
       
@@ -612,7 +601,7 @@
     
     <p class="text-sm text-neutral-500 dark:text-neutral-400">
       &copy;
-      2025
+      2026
       Robert W. Bruckmann
     </p>
     
